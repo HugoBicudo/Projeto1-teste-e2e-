@@ -1,0 +1,37 @@
+
+- CEÁRIO: Login ( realizado 3 teste )
+
+- CASO DE TESTE 01: login com email invalido 
+
+- BDD: Dado que eu acesse a pagina do login
+     Quando eu prencher o usuário com email errado 
+     Então o sistema deve exibir uma mensagem de erro "xxx"
+
+- STATUS: teste passou 
+
+
+
+- CASO DE TESTE 02: login com senha invalida 
+
+- BDD: Dado que eu acesse a pagina do login
+     Quando eu prencher o usuário com a senha errada 
+     Então o sistema deve exibir uma mensagem de erro "xxx" 
+
+- STATUS: teste passou 
+
+
+
+- CASO DE TESTE 03: login realizado com sucesso  
+
+- BDD: Dado que eu acesse a pagina do login
+     Quando eu prencher o usuário com email, senha corretos 
+     Então o sistema deve exibir uma mensagem confirmação "xxx" 
+
+- STATUS: teste passou 
+
+
+
+
+
+
+- CEÁRIO: 2 
