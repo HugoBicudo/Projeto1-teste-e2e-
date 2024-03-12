@@ -20,7 +20,7 @@ describe('Funcionalidade: login', () => {
 
 
 
-    it.only('Deve exibir uma mensagem de erro ao inserir a senha invalida', () => {
+    it('Deve exibir uma mensagem de erro ao inserir a senha invalida', () => {
 
         cy.get('[data-test="username"]').type('standard_user')
         cy.get('[data-test="password"]').type('1234567')
@@ -33,7 +33,19 @@ describe('Funcionalidade: login', () => {
     });
 
 
+    it.only('Deve fazer o login com sucesso', () => {
 
+
+        cy.get('[data-test="username"]').type('standard_user')
+        cy.get('[data-test="password"]').type('secret_sauce')
+        cy.get('#login-button').click()
+
+        cy.wrap('tester').should('contain', 'test') 
+
+
+
+
+    });
 
 
 

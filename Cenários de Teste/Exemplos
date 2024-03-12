@@ -1,10 +1,10 @@
 
-- CEÁRIO: Login ( realizado 3 teste )
+- CEÁRIO: Login ( realizado 3 testes )
 
-- CASO DE TESTE 01: login com email invalido 
+- CASO DE TESTE 01: login com usuário invalido 
 
 - BDD: Dado que eu acesse a pagina do login
-     Quando eu prencher o usuário com email errado 
+     Quando eu prencher o usuário errado 
      Então o sistema deve exibir uma mensagem de erro "xxx"
 
 - STATUS: teste passou 
@@ -34,4 +34,21 @@
 
 
 
-- CEÁRIO: 2 
+- CEÁRIO 2 : Produtos ( realizado 3 testes )
+
+- CASO DE TESTE 01: Funcionalidade da página dos Produtos
+
+- BDD: Dado que eu acesse a pagina dos produtos 
+     Quando eu clicar em um produto 
+     Então o sistema deve me levar para uma página de ampliação desse produto com a opção de compra 
+
+- STATUS: teste passou 
+
+
+- CASO DE TESTE 02: Funcionalidade do Carrinho 
+
+- BDD: Dado que eu acesse a pagina dos produtos 
+     Quando eu clicar em 'add to cart' 
+     Então o sistema deve me levar para uma página do carrinho de compras 
+
+- STATUS: teste passou 
